@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/vsix-publish",
+  "categories": [ "visual studio extensions", "coding" ],
+  "identity": {
+    "internalName": "AlphabetizeMe"
+  },
+  "overview": "README.md",
+  "priceCategory": "free",
+  "publisher": "Sam Lill",
+  "private": false,
+  "qna": true,
+  "repo": "https://github.com/sLill/AlphabetizeMe"
+}

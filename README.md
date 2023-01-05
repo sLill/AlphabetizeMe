@@ -1,3 +1,5 @@
+[repo]:https://github.com/sLill/AlphabetizeMe
+
 # AlphabetizeMe - VS Extension
 Highlight class members > right-click > "Alphabetize" to sort selected items alphabetically. 
 
