@@ -3,7 +3,7 @@
     <Metadata>
         <Identity Id="AlphabetizeMe.b8339106-182a-4d49-ae48-3181bac72375" Version="1.0" Language="en-US" Publisher="Sam Lill" />
         <DisplayName>AlphabetizeMe</DisplayName>
-        <Description xml:space="preserve">Highlight class members &gt; right-click &gt; Alphabetize to sort alphabetically. Simple and unintrusive.</Description>
+        <Description xml:space="preserve">Highlight class members &gt; Right-Click &gt; Alphabetize to sort alphabetically. Simple and unintrusive.</Description>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
         <Tags>Tool, Coding, Alphabetize, Organize, Cleanup, Formatting, C#</Tags>
