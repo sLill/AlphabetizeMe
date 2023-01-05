@@ -1,2 +1,2 @@
 # AlphabetizeMe
-Highlight class members, right-click, Alphabetize to sort alphabetically. Simple.
+Highlight class members, right-click, Alphabetize to sort alphabetically. Simple and unintrusive.
