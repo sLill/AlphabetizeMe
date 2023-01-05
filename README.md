@@ -1,5 +1,5 @@
 # AlphabetizeMe - VS Extension
-Highlight class members > right-click > "Alphabetize" to sort se;ected items alphabetically. 
+Highlight class members > right-click > "Alphabetize" to sort selected items alphabetically. 
 
 Simple and unintrusive.
 
