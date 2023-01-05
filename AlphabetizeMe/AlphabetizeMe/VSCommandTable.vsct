@@ -7,14 +7,6 @@
 	<Include href="VSGlobals.vsct"/>
 
 	<Commands package="AlphabetizeMe">
-		<!--<Groups>
-			<Group guid="AlphabetizeMe" id="MyMenuGroup" priority="0x0600">
-				<Parent guid="VSMainMenu" id="Tools"/>
-			</Group>
-		</Groups>-->
-
-		<!--This section defines the elements the user can interact with, like a menu command or a button
-        or combo box in a toolbar. -->
 		<Buttons>
 			<Button guid="AlphabetizeMe" id="AlphabetizeCommand" priority="0x1000" type="Button">
 				<Parent guid="guidSHLMainMenu" id="IDG_VS_EDIT_CUTCOPY" />
@@ -27,10 +19,6 @@
 			</Button>
 		</Buttons>
 	</Commands>
-
-	<!--<KeyBindings>
-		<KeyBinding guid="guidInsertGuidCmdSet" id="cmdInsertGuid" mod1="Control" key1="K" mod2="Control" key2="VK_SPACE" editor="guidVSStd97"/>
-	</KeyBindings>-->
 
 	<CommandPlacements>
 		<CommandPlacement guid="AlphabetizeMe" id="AlphabetizeCommand" priority="7000">
