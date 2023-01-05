@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<Extern href="stdidcmd.h"/>
+	<Extern href="vsshlids.h"/>
+	<Include href="KnownImageIds.vsct"/>
+	<Include href="VSGlobals.vsct"/>
+
+	<Commands package="AlphabetizeMe">
+		<!--<Groups>
+			<Group guid="AlphabetizeMe" id="MyMenuGroup" priority="0x0600">
+				<Parent guid="VSMainMenu" id="Tools"/>
+			</Group>
+		</Groups>-->
+
+		<!--This section defines the elements the user can interact with, like a menu command or a button
+        or combo box in a toolbar. -->
+		<Buttons>
+			<Button guid="AlphabetizeMe" id="AlphabetizeCommand" priority="0x1000" type="Button">
+				<Parent guid="guidSHLMainMenu" id="IDG_VS_EDIT_CUTCOPY" />
+				<Icon guid="ImageCatalogGuid" id="Code" />
+				<CommandFlag>IconIsMoniker</CommandFlag>
+				<Strings>
+					<ButtonText>Alphabetize</ButtonText>
+					<LocCanonicalName>.AlphabetizeMe.AlphabetizeCommand</LocCanonicalName>
+				</Strings>
+			</Button>
+		</Buttons>
+	</Commands>
+
+	<!--<KeyBindings>
+		<KeyBinding guid="guidInsertGuidCmdSet" id="cmdInsertGuid" mod1="Control" key1="K" mod2="Control" key2="VK_SPACE" editor="guidVSStd97"/>
+	</KeyBindings>-->
+
+	<CommandPlacements>
+		<CommandPlacement guid="AlphabetizeMe" id="AlphabetizeCommand" priority="7000">
+			<Parent guid="guidSHLMainMenu" id="IDG_VS_CODEWIN_TEXTEDIT" />
+		</CommandPlacement>
+	</CommandPlacements>
+
+	<Symbols>
+		<GuidSymbol name="AlphabetizeMe" value="{a45dd390-0c22-49bf-905d-18b39372344c}">
+			<IDSymbol name="MyMenuGroup" value="0x0001" />
+			<IDSymbol name="AlphabetizeCommand" value="0x0100" />
+		</GuidSymbol>
+	</Symbols>
+</CommandTable>
