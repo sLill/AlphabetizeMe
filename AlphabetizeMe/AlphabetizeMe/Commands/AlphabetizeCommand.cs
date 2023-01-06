@@ -10,8 +10,8 @@ namespace AlphabetizeMe
     internal sealed class AlphabetizeCommand : BaseCommand<AlphabetizeCommand>
     {
         #region Fields..
-        private const string METHOD_PATTERN = @"(?<MethodText>(private|public|protected|internal)[\s\w]*?(?<MethodName>\w*?[^\b])\s*?\(.*?\).*?{(?>{(?<c>)|[^{}]+|}(?<-c>))*(?(c)(?!))})";
-        private const string PROPERTY_PATTERN = @"(?<PropertyText>(public|private|internal|protected)(?!\(.*?\))*?[\w\s]*?(?<PropertyName>[\w]+?)\s*?({(?>{(?<c>)|[^{}]+|}(?<-c>))*(?(c)(?!))}|(=[^{}]*?)*;))";
+        private const string METHOD_PATTERN = @"(?<MethodText>(private|public|protected|internal)[\s\w<>\[\]]*?(?<MethodName>[^\s]+)\s*?\(.*?\).*?{(?>{(?<c>)|[^{}]+|}(?<-c>))*(?(c)(?!))})";
+        private const string PROPERTY_PATTERN = @"(?<PropertyText>(public|private|internal|protected)(?!\(.*?\))*?[\s\w]+?(?<PropertyType>[\w<>\[\]]+)\s(?<PropertyName>[\w]+?)\s*?({(?>{(?<c>)|[^{}]+|}(?<-c>))*(?(c)(?!))}|(=[^{}]*?)*;))";
 
         private static Regex _methodRegex;
         private static Regex _propertyRegex;
