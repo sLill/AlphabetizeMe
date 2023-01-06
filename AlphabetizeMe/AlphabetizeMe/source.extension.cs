@@ -9,7 +9,7 @@ namespace AlphabetizeMe
     {
         public const string Id = "AlphabetizeMe.b8339106-182a-4d49-ae48-3181bac72375";
         public const string Name = "AlphabetizeMe";
-        public const string Description = @"Highlight class members > Right-Click > Alphabetize to sort alphabetically. Simple and unintrusive.";
+        public const string Description = @"Highlight class members > Right-Click > "Alphabetize" to sort alphabetically. Simple and unintrusive.";
         public const string Language = "en-US";
         public const string Version = "1.0";
         public const string Author = "Sam Lill";
